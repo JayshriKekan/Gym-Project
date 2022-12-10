@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS Reset */
+        body{
+            font-family:'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url("img/gym.jpg");
+        }
+
+        .left{
+            display: inline-block;
+            border: 2px solid rgb(163, 152, 152);
+            position:absolute;
+            left:45px;
+            top:20px;
+        }
+        .left img{
+            width:79px;
+            filter: invert(21%);
+           
+        }
+        .left div{
+            text-align: center;
+            color:rgb(15, 12, 12);
+            line-height: 10px;
+            font-size: 15px;
+        }
+        .mid{
+            display:block;
+            width: 41%;
+            margin :20px auto;                       /*20px for top margin */
+            border:2px solid yellow;
+          
+        }
+        .right{
+            
+            display: inline-block;
+            border : 2px solid green;
+            position: absolute;
+            right:45px;
+            top:36px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+          
+        }
+        .navbar li a{
+            
+            text-decoration:none;
+            color:black;
+            padding:10px 10px;
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration: underline;
+            color:rgb(243, 60, 14);
+        }
+        .btn{
+            font-family:'Baloo Bhai', cursive;
+            color:white;
+            background-color:black;
+            padding:5px 10px;
+            border:2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-right:16px;
+            margin-left:14px;
+        }
+        .btn:hover{
+            background-color:rgb(243, 60, 14);
+        }
+    </style>
+</head>
+    <header  class="header">
+        <!-- left for logo -->
+        <div class="left">
+                <img src="img/dumbbell.jpg" alt="">
+                <div>ABC Fitness</div> 
+
+        </div>
+        <!-- mid for navigation bar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a src="#" class="active">Home</a></li>
+                <li><a src="#">Fitness Calculator</a></li>
+                <li><a src="#">About Us</a></li>
+                <li><a src="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right for logo -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="Container">
+        <h1>Join the best gym of Delhi now</h1>
+    </div>
+
+<body>
+  
+</body>
+</html>
